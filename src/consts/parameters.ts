@@ -12,7 +12,7 @@ export const chainConst = 8453;
 // Please ensure that you define the correct domain for your API key from the API settings page.
 // You can get one for free at https://thirdweb.com/create-api-key
 // Learn more here: https://blog.thirdweb.com/changelog/api-keys-to-access-thirdweb-infra
-export const clientIdConst = "72b5df8724669191605e8c53532c457c";
+export const clientIdConst = "d6828c645d382bcb509b306addd08f1a";
 
 // Configure the primary color for buttons and other UI elements
 export const primaryColorConst = "blue";
