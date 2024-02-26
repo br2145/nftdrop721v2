@@ -50,7 +50,7 @@ body {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: hsla(0, 79%, 39%, 0.692);
     --foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
