@@ -301,9 +301,9 @@ export default function Home() {
   }
 
   return (
-    <div className="w-screen min-h-screen bg-opacity-0">
+    <div className="w-screen min-h-screen bg-opacity-50">
       <ConnectWallet className="!absolute !right-4 !top-4" theme={theme} />
-      <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
+      <div className="grid h-screen grid-cols-1 lg:grid-cols-12 bg-opacity-50 ">
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           
         </div>
@@ -334,7 +334,7 @@ export default function Home() {
               
               
             </div>
-            <div className="flex w-full gap-4 bg-opacity-50">
+            <div className="flex w-full gap-4 bg-opacity-0">
               {dropNotReady ? (
                 <span className="text-red-500">
                   This drop is not ready to be minted yet. (No claim condition
