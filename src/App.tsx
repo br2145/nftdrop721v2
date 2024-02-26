@@ -301,7 +301,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-screen min-h-screen" style={{ backgroundColor: 'rgba(255, 0, 0, 0)' }}>
+    <div className="w-screen min-h-screen" style={{ backgroundColor: 'rgba(255, 0, 0, 0.3' }}>
       <ConnectWallet className="!absolute !right-4 !top-4" theme={theme} />
       <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
