@@ -306,8 +306,8 @@ export default function Home() {
       <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           <HeadingImage
-            src={"/src/png1.png"}
-            alt={`${contractMetadata?.name} preview image`}
+            src={"/src/png1.png" || firstNft?.metadata.image || ""}
+            isLoading={isLoading}
           />
         </div>
         <div className="flex items-center justify-center w-full h-full col-span-1 lg:col-span-7">
