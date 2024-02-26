@@ -28,7 +28,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: transparent;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -84,7 +83,7 @@ body {
   }
 
   .dark {
-    --background: transparent;
+    --background: hsla(223, 70%, 4%, 0);
     --foreground: 213 31% 91%;
 
     --muted: 223 47% 11%;

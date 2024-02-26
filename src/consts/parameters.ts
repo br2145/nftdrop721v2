@@ -18,7 +18,7 @@ export const clientIdConst = "94d71e7b123e36e27604a16980180ef0";
 export const primaryColorConst = "blue";
 
 // Choose between "light" and "dark" mode
-export const themeConst = "dark";
+export const themeConst = "light";
 
 // Gasless relayer configuration options
 export const relayerUrlConst = ""; // OpenZeppelin relayer URL
