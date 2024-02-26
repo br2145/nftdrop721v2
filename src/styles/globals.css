@@ -83,7 +83,7 @@ body {
   }
 
   .dark {
-    --background: hsla(223, 70%, 4%, 0);
+    --background: hsla(0, 79%, 39%, 0.692);
     --foreground: 213 31% 91%;
 
     --muted: 223 47% 11%;
