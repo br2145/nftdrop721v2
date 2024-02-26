@@ -334,7 +334,7 @@ export default function Home() {
               
               
             </div>
-            <div className="flex w-full gap-4">
+            <div className="flex w-full gap-4 bg-opacity-50">
               {dropNotReady ? (
                 <span className="text-red-500">
                   This drop is not ready to be minted yet. (No claim condition
