@@ -305,13 +305,13 @@ export default function Home() {
       <ConnectWallet className="!absolute !right-4 !top-4" theme={theme} />
       <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
-        <img src="/png1.png"/>
+        <img src="https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeihsgn6vi3uybmnivdr2red3ues4fmuzzrnvr7wax67vjv436avnwm/gif.gif"/>
 
         </div>
         <div className="flex items-end justify-center w-full h-full col-span-1 lg:col-span-7">
           <div className="flex flex-col w-full max-w-xl gap-4 p-12 rounded-xl lg:border lg:border-gray-400 lg:dark:border-gray-800">
           <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
-          <img src="/png1.png" />
+          <img src="https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeihsgn6vi3uybmnivdr2red3ues4fmuzzrnvr7wax67vjv436avnwm/gif.gif" />
             </div>
             
             <div className="flex flex-col gap-2 xs:gap-4">
