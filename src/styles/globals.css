@@ -10,7 +10,6 @@
 
   body {
     height: -webkit-fill-available;
-    background-color: red;
   }
 
   /* If using React, set height on the root div as well */
@@ -27,7 +26,6 @@
 
 html,
 body {
-  background-color: red;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
