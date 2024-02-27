@@ -400,16 +400,14 @@ export default function Home() {
                         +
                       </button>
                     </div>
+
+                    <div className={styles.mintContainer}>
                     <Web3Button
                       contractAddress={
                         contractQuery.contract?.getAddress() || ""
                       }
-                      style={{
-                        backgroundColor:
-                          colors[primaryColor as keyof typeof colors] ||
-                          primaryColor,
-                        maxHeight: "43px",
-                      }}
+                      className={styles.myWeb3ButtonClass}
+                      
                       theme={theme}
                       action={(cntr) => cntr.erc721.claim(quantity)}
                       isDisabled={!canClaim || buttonLoading}
@@ -457,6 +455,7 @@ export default function Home() {
                         buttonText
                       )}
                     </Web3Button>
+                  </div>
                   </div>
                 </div>
               )}
