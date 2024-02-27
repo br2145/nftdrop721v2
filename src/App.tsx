@@ -311,7 +311,7 @@ export default function Home() {
           />
         <div className="flex items-end justify-center w-full h-full col-span-1 lg:col-span-7">
           <div className="flex flex-col w-full max-w-xl gap-4 p-12 rounded-xl lg:border lg:border-gray-400 lg:dark:border-gray-800">
-          <div className="items-center justify-center flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
+          <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
           <HeadingImage
             src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
             isLoading={isLoading}
