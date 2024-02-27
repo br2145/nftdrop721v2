@@ -45,7 +45,7 @@ html {
   color-scheme: dark;
 }
 body {
-  @apply min-h-screen-safe bg-white dark:bg-red text-black dark:text-white;
+  @apply min-h-screen-safe bg-white dark:bg-black text-black dark:text-white;
 }
 
 @layer base {
