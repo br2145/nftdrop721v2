@@ -15,7 +15,7 @@ export const chainConst = 137;
 export const clientIdConst = "94d71e7b123e36e27604a16980180ef0";
 
 // Configure the primary color for buttons and other UI elements
-export const primaryColorConst = "blue";
+export const primaryColorConst = "red";
 
 // Choose between "light" and "dark" mode
 export const themeConst = "dark";

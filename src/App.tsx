@@ -324,29 +324,30 @@ export default function Home() {
 
             </div>
             
-            <div className="flex flex-col gap-2 xs:gap-4">
-              {isLoading ? (
-                <div
-                  role="status"
-                  className="space-y-8 animate-pulse md:flex md:items-center md:space-x-8 md:space-y-0"
-                >
-                  <div className="w-full">
-                    <div className="w-24 h-10 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <div className="flex flex-col gap-2 xs:gap-4">
+                {isLoading ? (
+                  <div
+                    role="status"
+                    className="space-y-8 animate-pulse md:flex md:items-center md:space-x-8 md:space-y-0"
+                  >
+                    <div className="w-full">
+                      <div className="w-24 h-10 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+                    </div>
                   </div>
-                </div>
-              ) : isOpenEdition ? null : (
-                <p>
-                  <span className="text-lg font-bold tracking-wider text-gray-500 xs:text-xl lg:text-2xl">
-                    {numberClaimed}
-                  </span>{" "}
-                  <span className="text-lg font-bold tracking-wider xs:text-xl lg:text-2xl">
-                    / {numberTotal} minted
-                  </span>
-                </p>
-              )}
-              
-              
+                ) : isOpenEdition ? null : (
+                  <p>
+                    <span className="text-lg font-bold tracking-wider text-gray-500 xs:text-xl lg:text-2xl">
+                      {numberClaimed}
+                    </span>{" "}
+                    <span className="text-lg font-bold tracking-wider xs:text-xl lg:text-2xl">
+                      / {numberTotal} minted
+                    </span>
+                  </p>
+                )}
+              </div>
             </div>
+
             <div className="flex w-full gap-4">
               {dropNotReady ? (
                 <span className="text-red-500">
