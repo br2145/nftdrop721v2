@@ -405,9 +405,11 @@ export default function Home() {
                         contractQuery.contract?.getAddress() || ""
                       }
                       style={{
-                        backgroundColor: "yellow", // Set the background color to yellow
+                        backgroundColor: "#000000", // Set the background color to yellow
+                        color: "#e7e7e7", 
                         borderRadius: "30px", // Set the border-radius to make corners round
                         maxHeight: "43px",
+                        boxShadow: "0px 0px 32px 0px #f9bd1f",
                       }}
 
                       theme={theme}
@@ -457,6 +459,11 @@ export default function Home() {
                         buttonText
                       )}
                     </Web3Button>
+
+                    /* Add hover styles for the Web3Button */
+.Web3Button:hover {
+  background-color: red; /* Set the background color to red on hover */
+}
                   </div>
                 </div>
               )}
