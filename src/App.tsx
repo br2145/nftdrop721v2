@@ -305,18 +305,24 @@ export default function Home() {
       <ConnectWallet className="!absolute !right-4 !top-4" theme={theme} />
       <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
-          <HeadingImage
-            src={"https://um-nfts.netlify.app/png1.png"}
-            isLoading={isLoading}
-          />
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+  <HeadingImage
+    src={"https://assets-global.website-files.com/65d00699432af750589e6865/65d16de055751cc3144072f3_29.png"}
+    isLoading={isLoading}
+  />
+</div>
+
         </div>
         <div className="flex items-center justify-center w-full h-full col-span-1 lg:col-span-7">
           <div className="flex flex-col w-full max-w-xl gap-4 p-12 rounded-xl lg:border lg:border-gray-400 lg:dark:border-gray-800">
             <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
-              <HeadingImage
-                src={"https://um-nfts.netlify.app/png1.png"}
-                isLoading={isLoading}
-              />
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+  <HeadingImage
+    src={"https://assets-global.website-files.com/65d00699432af750589e6865/65d16de055751cc3144072f3_29.png"}
+    isLoading={isLoading}
+  />
+</div>
+
             </div>
             
             <div className="flex flex-col gap-2 xs:gap-4">
