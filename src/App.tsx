@@ -361,7 +361,7 @@ export default function Home() {
               ) : (
                     <div className="flex flex-col w-full gap-4">
                       <div className="flex flex-col w-full gap-4 lg:flex-row lg:items-center lg:gap-4 ">
-                        <div className="flex w-full px-2 border border-gray-400 rounded-lg h-11 dark:border-gray-800 md:w-full">
+                        <div className="flex w-full px-2 rounded-lg h-11 dark:border-gray-800 md:w-full">
                       <button
                         onClick={() => {
                           const value = quantity - 1;
@@ -376,7 +376,7 @@ export default function Home() {
                             className="flex items-center justify-center h-full px-2 text-2xl text-center rounded-l-md disabled:cursor-not-allowed disabled:text-gray-500 dark:text-white dark:disabled:text-gray-600"
                         disabled={isSoldOut || quantity - 1 < 1}
                       >
-                        -
+                        &#9660
                       </button>
                           <p className="flex items-center justify-center w-full h-full font-mono text-center dark:text-white lg:w-full">
                         {!isLoading && isSoldOut ? "Sold Out" : quantity}
@@ -397,7 +397,7 @@ export default function Home() {
                         }
                         disabled={isSoldOut || quantity + 1 > maxClaimable}
                       >
-                        +
+                        &#9650
                       </button>
                     </div>
                     <Web3Button
