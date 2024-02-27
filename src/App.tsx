@@ -459,11 +459,6 @@ export default function Home() {
                         buttonText
                       )}
                     </Web3Button>
-
-                    /* Add hover styles for the Web3Button */
-.Web3Button:hover {
-  background-color: red; /* Set the background color to red on hover */
-}
                   </div>
                 </div>
               )}
