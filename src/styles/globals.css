@@ -125,28 +125,3 @@ body {
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
-
-.mintContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 10%;
-  margin-top: 24px;
-}
-
-.mintContainer > button {
-  background: #000000 ;
-  font-size: 22px;
-  color: #e7e7e7 ;
-  min-height: 65px ;
-  width: 280px;
-  border-radius: 100px ;
-  transition-duration: 0.4s ;
-  box-shadow: 0px 0px 32px 0px #f9bd1f;
-}
-
-.mintContainer > button:hover {
-  color: #ffffff;
-  background: #272727 ;
-}
