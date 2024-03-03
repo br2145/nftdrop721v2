@@ -405,11 +405,11 @@ export default function Home() {
                         contractQuery.contract?.getAddress() || ""
                       }
                       style={{
-                        backgroundColor: "#000000", // Set the background color to yellow
-                        color: "#e7e7e7", 
+                        backgroundColor: "#0077C8", // Set the background color to yellow
+                        color: "#FFFFFF", 
                         borderRadius: "30px", // Set the border-radius to make corners round
                         maxHeight: "43px",
-                        boxShadow: "0px 0px 32px 0px #f9bd1f",
+                        //boxShadow: "0px 0px 32px 0px #f9bd1f",
                       }}
 
                       theme={theme}
