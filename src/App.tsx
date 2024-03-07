@@ -306,7 +306,7 @@ export default function Home() {
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <HeadingImage
-                src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
+                src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
                 isLoading={isLoading}
               />
             </div>
@@ -317,7 +317,7 @@ export default function Home() {
             <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <HeadingImage
-                src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
+                src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
                 isLoading={isLoading}
               />
             </div>
@@ -405,11 +405,11 @@ export default function Home() {
                         contractQuery.contract?.getAddress() || ""
                       }
                       style={{
-                        backgroundColor: "#0077C8", // Set the background color to yellow
-                        color: "#FFFFFF", 
+                        backgroundColor: "#000000", // Set the background color to yellow
+                        color: "#e7e7e7", 
                         borderRadius: "30px", // Set the border-radius to make corners round
                         maxHeight: "43px",
-                        //boxShadow: "0px 0px 32px 0px #f9bd1f",
+                        boxShadow: "0px 0px 32px 0px #f9bd1f",
                       }}
 
                       theme={theme}
