@@ -410,7 +410,7 @@ export default function Home() {
                         borderRadius: "30px", // Set the border-radius to make corners round
                         maxHeight: "43px",
                         boxShadow: "0px 0px 32px 0px #f9bd1f",
-                      }}
+                      }}   
 
                       theme={theme}
                       action={(cntr) => cntr.erc721.claim(quantity)}
