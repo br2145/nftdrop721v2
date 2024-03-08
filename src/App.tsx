@@ -305,10 +305,10 @@ export default function Home() {
       <div className="grid h-screen grid-cols-1 lg:grid-cols-12">
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <HeadingImage
-                src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
-                isLoading={isLoading}
-              />
+            <HeadingImage
+              src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
+              isLoading={isLoading}
+            />
             </div>
 
         </div>
@@ -316,11 +316,11 @@ export default function Home() {
           <div className="flex flex-col w-full max-w-xl gap-4 p-12 rounded-xl lg:border lg:border-gray-400 lg:dark:border-gray-800">
             <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <HeadingImage
-                src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
-                isLoading={isLoading}
-              />
-            </div>
+                <HeadingImage
+                  src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
+                  isLoading={isLoading}
+                />
+              </div>
 
             </div>
             
@@ -410,7 +410,7 @@ export default function Home() {
                         borderRadius: "30px", // Set the border-radius to make corners round
                         maxHeight: "43px",
                         boxShadow: "0px 0px 32px 0px #f9bd1f",
-                      }}   
+                      }}  
 
                       theme={theme}
                       action={(cntr) => cntr.erc721.claim(quantity)}
