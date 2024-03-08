@@ -306,7 +306,7 @@ export default function Home() {
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <HeadingImage
-              src={"https://assets-global.website-files.com/65d00699432af750589e6865/65d16de055751cc3144072f3_29.png"}
+              src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
               isLoading={isLoading}
             />
             </div>
@@ -317,7 +317,7 @@ export default function Home() {
             <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <HeadingImage
-                  src={"https://assets-global.website-files.com/65d00699432af750589e6865/65d16de055751cc3144072f3_29.png"}
+                  src={"https://uploads-ssl.webflow.com/65cc319bb21078d27636a70b/65e992cd1cdee511e5802681_121.png"}
                   isLoading={isLoading}
                 />
               </div>
