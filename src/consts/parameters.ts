@@ -6,7 +6,7 @@ export const contractConst = "0xBD957325187a35456b567c4f15E0a2cAC4E0238e";
 
 // The name of the chain your contract is deployed to.
 // Refer to README.md on how to specify the chain name.
-export const chainConst = 137;
+export const chainConst = 1;
 
 // It is IMPORTANT to provide your own API key to use the thirdweb SDK and infrastructure.
 // Please ensure that you define the correct domain for your API key from the API settings page.
