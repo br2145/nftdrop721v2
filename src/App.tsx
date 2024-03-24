@@ -408,8 +408,8 @@ export default function Home() {
                         backgroundColor: "#000000", // Set the background color to yellow
                         color: "#e7e7e7", 
                         borderRadius: "30px", // Set the border-radius to make corners round
-                        maxHeight: "43px",
-                        boxShadow: "0px 0px 32px 0px #f9bd1f",
+                        Height: "50px",
+                        boxShadow: "0px 0px 32px 0px #ffffff",
                       }}  
 
                       theme={theme}
