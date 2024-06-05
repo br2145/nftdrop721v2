@@ -306,7 +306,7 @@ export default function Home() {
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <HeadingImage
-                        src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
+                        src={"https://assets-global.website-files.com/652d673fc9f240a9ae76af11/652f4e292d451a42f0581fb0_8P%204S.gif" || firstNft?.metadata.image || ""}
                         isLoading={isLoading}
           />
             </div>
@@ -317,8 +317,8 @@ export default function Home() {
             <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <HeadingImage
-                          src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
-                          isLoading={isLoading}
+                        src={"https://assets-global.website-files.com/652d673fc9f240a9ae76af11/652f4e292d451a42f0581fb0_8P%204S.gif" || firstNft?.metadata.image || ""}
+                        isLoading={isLoading}
           />
               </div>
 
