@@ -306,7 +306,8 @@ export default function Home() {
         <div className="items-center justify-center hidden w-full h-full lg:col-span-5 lg:flex lg:px-12">
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <HeadingImage
-            src="/png1.png"
+                        src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
+                        isLoading={isLoading}
           />
             </div>
 
@@ -316,7 +317,8 @@ export default function Home() {
             <div className="flex w-full mt-8 xs:mb-8 xs:mt-0 lg:hidden">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <HeadingImage
-              src="/png1.png"
+                          src={contractMetadata.data?.image || firstNft?.metadata.image || ""}
+                          isLoading={isLoading}
           />
               </div>
 
