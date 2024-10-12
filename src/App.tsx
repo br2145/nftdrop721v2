@@ -409,7 +409,7 @@ export default function Home() {
                         color: "#e7e7e7", 
                         borderRadius: "30px", // Set the border-radius to make corners round
                         height: "50px",
-                        boxShadow: "0px 0px 32px 0px #233E68",
+                        boxShadow: "0px 0px 32px 0px #df1cff #233E68",
                       }}  
 
                       theme={theme}
